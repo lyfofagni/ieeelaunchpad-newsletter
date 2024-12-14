@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IEEE LaunchPad Kerala Newsletter</title>
     <style>
-        body 
-        {
+        body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             background-color: #f4f4f4;
@@ -14,77 +13,84 @@
             margin: 0;
             padding: 0;
         }
-        .container 
-        {
-            width: 80%;
-            margin: 0 auto;
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
             background: #fff;
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-        .header, .footer 
-        {
+        .header, .footer {
             text-align: center;
             background-color: #004aad;
             color: #fff;
-            padding: 10px 0;
+            padding: 15px 0;
+            border-radius: 8px 8px 0 0;
         }
-        .header h1 
-        {
+        .footer {
+            border-radius: 0 0 8px 8px;
+        }
+        .header h1 {
             margin: 0;
+            font-size: 1.8rem;
         }
-        .content 
-        {
+        .content {
             margin: 20px 0;
         }
-        .content h2 
-        {
+        .content h2 {
             color: #004aad;
-        }
-        .steps ol li 
-        {
             margin-bottom: 10px;
         }
-         .steps ol 
-         {
+        .steps ol {
             padding-left: 20px;
         }
-        
-        .cta 
-        {
+        .steps ol li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .cta {
             text-align: center;
             margin: 20px 0;
         }
-        .cta a 
-        {
+        .cta a {
             background-color: #004aad;
             color: #fff;
-            padding: 10px 20px;
+            padding: 12px 25px;
             text-decoration: none;
             border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s;
         }
-        .cta a:hover 
-        {
+        .cta a:hover {
             background-color: #003a8a;
         }
-        .event, .update 
-        {
+        .event, .update {
             margin-bottom: 20px;
         }
-        .roadmap 
-        {
+        .roadmap {
             background-color: #e6f7ff;
             padding: 15px;
             border-radius: 5px;
+            margin-top: 20px;
+        }
+        .roadmap h2 {
+            margin-top: 0;
+        }
+        a {
+            color: #004aad;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
-    
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>IEEE LaunchPad Kerala</h1>
+            <h1>IEEE LaunchPad Kerala Newsletter</h1>
         </div>
         <div class="content">
             <h2>Introduction</h2>
@@ -92,40 +98,48 @@
             <div class="cta">
                 <a href="https://launchpadkerala.org/">Join, Participate, or Contribute</a>
             </div>
+
             <div class="event">
                 <h2>Launchpad Kerala 2024</h2>
                 <p>Launchpad Kerala 2024 is a premier job fair that brings together talented individuals and innovative companies in the technical and engineering fields. This collaboration between IEEE Kerala Section and GTech MuLearn aims to propel advancement and innovation within Kerala's employment landscape.</p>
             </div>
+
             <div class="event">
                 <h2>Launchpad Kerala 2023</h2>
                 <p>An annual employment fair hosted by IEEE Kerala Section and GTech MuLearn. Sponsored by the Kerala Knowledge Economy Mission (KKEM) and the National Institute of Electronics & Information Technology (NIELIT), this event was a game-changer for professionals and job seekers alike!</p>
                 <p>It brought together a diverse array of talented individuals, cutting-edge technology companies, and industry experts, creating an environment ripe with opportunities and innovation. Job seekers had the chance to interact with renowned organizations, gain valuable insights, and explore potential career paths.</p>
             </div>
+
             <div class="update">
                 <h2>Important Update: Online Aptitude Test and Mock Test Details</h2>
                 <p>Dear Participant,</p>
                 <p>We hope this message finds you well. Launchpad Kerala is entering an exciting new phase, and we're thrilled to invite you to the next stage of our selection process.</p>
+
                 <h3>Online Aptitude Test Details:</h3>
                 <p>The online aptitude test is scheduled for July 4th, and participation is mandatory for all candidates aiming to proceed to the interview round. Your performance in this test, along with your technical challenge results, will determine your position in the final rank list. Interviews will be conducted in Trivandrum and Kochi based on this ranking.</p>
+
                 <h3>Mock Test Preparation:</h3>
                 <p>To help you prepare effectively, we will be conducting a mock test on July 3rd. Further details regarding this will be shared in a separate email soon.</p>
+
                 <h3>Eligibility Criteria:</h3>
-                <p>Please note that only those who have completed at least one task in the Technical Challenge by July 1st will be eligible to participate in the aptitude test. If you haven't started the technical challenge yet, we encourage you to begin at your earliest convenience. You can find detailed instructions on how to start your technical challenges here.</p>
+                <p>Only those who have completed at least one task in the Technical Challenge by July 1st will be eligible to participate in the aptitude test. If you haven't started the technical challenge yet, we encourage you to begin at your earliest convenience. You can find detailed instructions on how to start your technical challenges <a href="https://github.com/gtech-mulearn/IEEE-LAUNCHPAD">here</a>.</p>
+
                 <h3>Act Now:</h3>
-                <p>Remember, the deadline to start your technical challenge is July 1st. This is a crucial step towards launching your career with Launchpad Kerala. Don't miss this opportunity to showcase your skills and potential.</p>
+                <p>The deadline to start your technical challenge is July 1st. This is a crucial step towards launching your career with Launchpad Kerala. Don't miss this opportunity to showcase your skills and potential.</p>
                 <p>We are excited about your participation and look forward to seeing you excel in the upcoming challenges. Should you have any questions or need further assistance, please don't hesitate to reach out.</p>
             </div>
+
             <div class="roadmap">
                 <h2>Event Roadmap</h2>
                 <div class="steps">
                     <ol>
-                        <li><strong>Step 1: Online Registration</strong> - You have successfully completed the registration process, securing your place at Launchpad Kerala 2024.</li>
-                        <li><strong>Step 2: Confirmation</strong> - Candidates will receive an email from the Launchpad Kerala 2024 team within 48 hours of registration. All updates will be posted on the updates page of the Launchpad Kerala 2024 website.</li>
-                        <li><strong>Step 3: Join the Community</strong> - Join the Gtech Mulearn Discord Server and complete the Launchpad Challenges. <a href="https://github.com/gtech-mulearn/IEEE-LAUNCHPAD">Details here</a>.</li>
-                        <li><strong>Step 4: Technical Challenge</strong> - Find levels and tasks related to the IEEE Launchpad category in the #ieee-launchpad-announcement channel on Discord. Submit tasks on time to earn Karma points.</li>
+                        <li><strong>Step 1: Online Registration</strong> - Secure your place at Launchpad Kerala 2024.</li>
+                        <li><strong>Step 2: Confirmation</strong> - Receive an email confirmation within 48 hours of registration. Updates will be posted on the Launchpad Kerala 2024 website.</li>
+                        <li><strong>Step 3: Join the Community</strong> - Join the GTech MuLearn Discord Server and complete Launchpad Challenges. <a href="https://github.com/gtech-mulearn/IEEE-LAUNCHPAD">Details here</a>.</li>
+                        <li><strong>Step 4: Technical Challenge</strong> - Submit tasks on time to earn Karma points and showcase your skills.</li>
                         <li><strong>Step 5: Online Aptitude Test</strong> - Participate in the online assessment to showcase your competencies to potential employers.</li>
-                        <li><strong>Step 6: Await the Finalized Results</strong> - Your performance in the technical challenge and online test will be evaluated. Stay tuned for the results.</li>
-                        <li><strong>Step 7: Final Interview</strong> - The final stage of the selection process where you can showcase your skills and secure your dream job.</li>
+                        <li><strong>Step 6: Await the Finalized Results</strong> - Stay tuned for the results of the technical challenge and aptitude test.</li>
+                        <li><strong>Step 7: Final Interview</strong> - Showcase your skills and secure your dream job in the final interview.</li>
                     </ol>
                 </div>
             </div>
